@@ -1216,7 +1216,7 @@ void AA_Data11_analysis::Analysis(TH1F* h1_weight)
                 }
 
                 /////////////////////////////////////////Nearest Muon result//////////////////////////////////////////////////////
-/*
+
                 if(dR_muon < 0.6 && particle_ID_muon >=0)
                 {
                     //std::cout<<"muon dR : "<<dR_muon<<"\t"<<"Event number: "<<l<<"\t"<<"Jet number: "<<e<<std::endl;
@@ -1396,7 +1396,7 @@ void AA_Data11_analysis::Analysis(TH1F* h1_weight)
                         }
                     }
                 }
-*/
+
 /////////////////////////////////////////////////minimum bias event mixing//////////////////////////////////////////////
 
                 int b = 0;
@@ -1586,7 +1586,7 @@ void AA_Data11_analysis::Analysis(TH1F* h1_weight)
                         move ++;
                 } 
 
-/*
+
                 int Pool_size = pool[centrality].size();
                 if(Pool_size > 0 && Pool_size <= depth[centrality])
             //    if( Pool_size == depth[centrality])
@@ -1686,14 +1686,14 @@ void AA_Data11_analysis::Analysis(TH1F* h1_weight)
                         }
                     }
                 }
-*/
+
             }
         }
 
         event_check += 5.0;
                 
 ///////////////////////////////////////////////event mixing///////////////////////////////////////////////////
-      /* 
+       
         for(int k =0; k< antikt2HIItrEM_n; k++)
         {
             Caljet.SetPtEtaPhiM(antikt2HIItrEM_pt->at(k),antikt2HIItrEM_eta->at(k),antikt2HIItrEM_phi->at(k),antikt2HIItrEM_m->at(k));
@@ -1825,7 +1825,7 @@ void AA_Data11_analysis::Analysis(TH1F* h1_weight)
             }
         }
 
-*/
+
 
 
        
